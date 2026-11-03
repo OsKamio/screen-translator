@@ -1,0 +1,25 @@
+name: 问题报告
+description: 报告可复现的问题，请勿提供密钥或完整配置。
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: 请先删除截图、日志和复现文案中的 API 密钥、私人网址及个人内容。
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期表现
+  - type: input
+    id: environment
+    attributes:
+      label: Windows、Python 版本与屏幕缩放比例
+  - type: textarea
+    id: example
+    attributes:
+      label: 不含私人内容的示例或截图
