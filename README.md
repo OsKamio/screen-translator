@@ -38,12 +38,12 @@ A Windows screen translator with local OCR, region selection, live subtitles, an
 
 適用於 **Windows 10 1809 以上 / Windows 11，x64**。安裝包已包含執行環境與 OCR 模型，**不需要另外安裝 Python**。
 
-1. 前往 [Releases](https://github.com/OsKamio/screen-translator/releases)，下載 `ScreenTranslator-0.2.0-Setup-x64.exe`。
+1. 前往 [0.2.0 下載頁](https://github.com/OsKamio/screen-translator/releases/tag/v0.2.0)，下載 `ScreenTranslator-0.2.0-Setup-x64.exe`。
 2. 執行安裝程式，選擇安裝位置；需要時勾選建立桌面捷徑。
 3. 從開始功能表或桌面開啟 **ScreenTranslator**，螢幕上會出現「譯」字懸浮入口。
 4. 右鍵懸浮入口 → **設定**，選擇目標語言和翻譯服務，填入該服務需要的設定並儲存。
 
-目前為 **0.2.0 私有審閱版**，安裝包尚未進行程式碼簽章。倉庫與版本仍在確認階段，下載需要有倉庫存取權限。OCR 可離線執行，線上翻譯需要網路與可用的翻譯服務。
+目前版本為 **0.2.0**，可直接下載安裝包或免安裝版。安裝包尚未進行程式碼簽章。OCR 可離線執行，線上翻譯需要網路與可用的翻譯服務。
 
 更新時先從懸浮入口右鍵選單結束程式，再執行新版安裝包。解除安裝可在 Windows「設定 → 應用程式」找到 ScreenTranslator；已儲存的翻譯服務設定會保留。
 
