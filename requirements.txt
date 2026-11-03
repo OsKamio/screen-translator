@@ -1,0 +1,15 @@
+# 屏幕悬浮翻译工具依赖
+# ---------------------------------------------------------------------------
+# Python 3.10 ~ 3.12：直接 `pip install -r requirements.txt`
+#
+# Python 3.13：rapidocr-onnxruntime 尚未在元数据里声明支持 3.13，
+# 但其代码与全部依赖在 3.13 实测可用，需忽略版本限制安装：
+#   pip install -r requirements.txt --ignore-requires-python
+# ---------------------------------------------------------------------------
+PySide6>=6.7.0,<7     # GUI：悬浮窗/遮罩/结果面板
+mss>=9.0.0,<11       # 快速屏幕区域抓取
+onnxruntime>=1.21.0,<2  # RapidOCR 的推理引擎（1.21+ 提供 cp313 wheel）
+rapidocr-onnxruntime==1.4.4  # 已验证的本地 OCR 版本（中英文模型随包提供）
+requests>=2.31.0,<3  # 在线翻译接口
+numpy>=1.26.0,<3
+opencv-python>=4.8.0,<6
